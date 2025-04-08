@@ -14,7 +14,6 @@ public class DB {
             throw new SQLException("JDBC Driver not found", e);
         }
         
-        // Changé de 'departement' à 'exam' pour correspondre à votre base de données
         String URL = "jdbc:mysql://172.80.237.53:3306/db_s2_ETU003389";
         Properties properties = new Properties();
         properties.setProperty("user", "ETU003389");
