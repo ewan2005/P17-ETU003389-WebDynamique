@@ -21,45 +21,6 @@
                 <li><a href="${pageContext.request.contextPath}/dashboard" class="active">Dashboard</a></li>
             </ul>
         </nav>
-        
-        <%-- <!-- Contenu principal -->
-        <div class="main-content">
-            <h1>Bienvenue, ${userName}!</h1>
-            
-            <!-- Résumé -->
-            <div class="dashboard-summary">
-                <div class="summary-card total-accounts">
-                    <div class="card-icon">
-                        <i class="icon-accounts"></i>
-                    </div>
-                    <div class="card-content">
-                        <h3>Total des comptes</h3>
-                        <p class="card-value">${comptes.size()}</p>
-                    </div>
-                </div>
-                
-                <div class="summary-card total-balance">
-                    <div class="card-icon">
-                        <i class="icon-balance"></i>
-                    </div>
-                    <div class="card-content">
-                        <h3>Solde total</h3>
-                        <p class="card-value">${soldeTotalFormate} €</p>
-                    </div>
-                </div>
-                
-                <div class="summary-card recent-transactions">
-                    <div class="card-icon">
-                        <i class="icon-transactions"></i>
-                    </div>
-                    <div class="card-content">
-                        <h3>Dernières transactions</h3>
-                        <p class="card-value">${recentMovements.size()}</p>
-                    </div>
-                </div>
-            </div> --%>
-            
-            <!-- Actions rapides -->
             <div class="quick-actions">
                 <h2>Actions rapides</h2>
                 <div class="actions-grid">

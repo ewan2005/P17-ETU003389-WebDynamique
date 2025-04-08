@@ -20,7 +20,6 @@
             </ul>
         </nav>
         
-        <!-- Contenu principal -->
         <div class="main-content">
             <h1>Ajouter Une Ligne de Credit</h1>
             

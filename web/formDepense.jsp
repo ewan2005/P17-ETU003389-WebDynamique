@@ -14,7 +14,6 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style-common.css"></head>
 <body>
     <div class="container">
-        <!-- Barre de navigation -->
         <nav class="navbar">
             <div class="logo">
                 <h2>ExamApp</h2>
@@ -27,7 +26,6 @@
             </ul>
         </nav>
         
-        <!-- Contenu principal -->
         <div class="main-content">
             <h1>Ajouter Une Ligne de Depense</h1>
             
